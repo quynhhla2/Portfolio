@@ -19,7 +19,10 @@ module.exports = {
         light: "#ecf0f3",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
-        darkMode: "#3c3c3d",
+        // darkMode: "#262626",
+        // darkModeBg: "#333333",
+        // darkModeText: "#666666",
+        // darkModeHover: "#ffee10",
         purple: "#c429e3",
         yellow: "#e3cc20",
         lightPrimary: "#ffffff",
@@ -33,6 +36,15 @@ module.exports = {
         custom: "1rem 1rem 1rem #d3dae7, -1rem -1rem 1rem #fff",
         custom1: "1rem 1rem 1rem #d3dae7, -0.5rem -1rem 1rem #fff",
         custom2: "1rem 1rem 1rem #d3dae7, -0.3rem -1rem 1rem #fff",
+        custom3:
+          "1rem 1rem 1rem rgb(76, 87, 115, 0.7), -0.5rem -0.6rem 1rem rgb(255, 255, 255, 0.1)",
+        customDark: "0 0 5px #ffee10",
+        customDarkBefore: "0 0 15px #ffee10",
+      },
+
+      dropShadow: {
+        'xl': '0 0 5px #ffee10',
+        '2xl': '0 0 15px #ffee10'
       },
 
       backgroundImage: {

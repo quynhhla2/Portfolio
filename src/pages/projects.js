@@ -39,7 +39,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
         <div className="mt-2 flex items-center">
           {github && (
             <Link href={github} target="_blank">
-              <FaGithub style={{ fontSize: "40px", color: "#4c5773" }} />
+              <FaGithub style={{ fontSize: "40px", color: "#4c5773" }} className="hover:dark:shadow-customDark" />
             </Link>
           )}
           {link && (

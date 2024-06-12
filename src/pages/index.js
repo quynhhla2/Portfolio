@@ -25,9 +25,9 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center mb-20">
               <AnimatedText
                 text="Hi! I'm Quynh          I'm a web designer"
-                className="!text-6xl !text-left"
+                className="!text-6xl !text-left dark:text-light"
               />
-              <p className="my-4 text-base font-medium">
+              <p className="my-4 text-base font-medium dark:text-light">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
                 projects and articles, showcasing my expertise in React.js and
@@ -41,7 +41,9 @@ export default function Home() {
                   className="flex items-center bg-dark text-light p-2.5 px-6
                   rounded-full text-lg font-semibold hover:bg-light hover:text-dark
                   border border-solid border-transparent hover:border-dark 
-                  hover:shadow-custom transition ease-in-out duration-300"
+                  hover:shadow-custom transition ease-in-out duration-300 
+                  dark:border-2 dark:border-transparent dark:bg-darkModeBg hover:dark:shadow-customDarkBefore
+                  hover:dark:border-2 hover:dark:border-darkModeHover dark:hover:text-darkModeHover"
                   download={true}
                 >
                   Resume <IoMdDownload className={"w-6 ml-1"} />
@@ -52,7 +54,9 @@ export default function Home() {
                   target={"_blank"}
                   className="ml-4 text-lg font-semibold capitalize text-dark rounded-full
                   border border-solid border-dark/20 bg-light p-2.5 px-6 hover:shadow-custom1 
-                  hover:border-none transition ease-in-out duration-300"
+                  hover:border-none transition ease-in-out duration-300 dark:bg-transparent 
+                  dark:text-light dark:border-2 dark:border-transparent
+                  "
                 >
                   Contact
                 </Link>
